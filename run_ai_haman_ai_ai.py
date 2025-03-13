@@ -42,8 +42,8 @@ def grog_haman(text):
         print(f"Recognized Text: {highlighted_text}")
         if is_found:
             print("Haman is in the text! Grogger!")
-            play_grogger()
             print(grogger_emoji)
+            play_grogger()
         else:
             print("Haman is not in the text.")
     else:
